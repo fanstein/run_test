@@ -1,0 +1,295 @@
+2016/11/10 19:52:06 INFO  - jmeter.util.JMeterUtils: Setting Locale to en 
+2016/11/10 19:52:06 INFO  - jmeter.JMeter: Loading user properties from: E:\software\apache-jmeter-3.0\bin\user.properties 
+2016/11/10 19:52:06 INFO  - jmeter.JMeter: Loading system properties from: E:\software\apache-jmeter-3.0\bin\system.properties 
+2016/11/10 19:52:06 INFO  - jmeter.JMeter: Setting System property: thread=35 
+2016/11/10 19:52:06 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
+2016/11/10 19:52:06 INFO  - jmeter.JMeter: Version 3.0 r1743807 
+2016/11/10 19:52:06 INFO  - jmeter.JMeter: java.version=1.8.0_74 
+2016/11/10 19:52:06 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2016/11/10 19:52:06 INFO  - jmeter.JMeter: os.name=Windows 7 
+2016/11/10 19:52:06 INFO  - jmeter.JMeter: os.arch=amd64 
+2016/11/10 19:52:06 INFO  - jmeter.JMeter: os.version=6.1 
+2016/11/10 19:52:06 INFO  - jmeter.JMeter: file.encoding=GBK 
+2016/11/10 19:52:06 INFO  - jmeter.JMeter: Max memory     =523763712 
+2016/11/10 19:52:06 INFO  - jmeter.JMeter: Available Processors =4 
+2016/11/10 19:52:06 INFO  - jmeter.JMeter: Default Locale=中文 (中国) 
+2016/11/10 19:52:06 INFO  - jmeter.JMeter: JMeter  Locale=英文 
+2016/11/10 19:52:06 INFO  - jmeter.JMeter: JMeterHome=E:\software\apache-jmeter-3.0 
+2016/11/10 19:52:06 INFO  - jmeter.JMeter: user.dir  =D:\Users\fanp\Desktop\run_test 
+2016/11/10 19:52:06 INFO  - jmeter.JMeter: PWD       =D:\Users\fanp\Desktop\run_test 
+2016/11/10 19:52:06 INFO  - jmeter.JMeter: IP: 10.33.20.27 Name: DST51574 FullName: DST51574.cn1.global.ctrip.com 
+2016/11/10 19:52:06 INFO  - jmeter.JMeter: plugin_dependency_paths=../dependencies/lib;../app1/;../app2/;../extra_lib 
+2016/11/10 19:52:06 WARN  - jmeter.JMeter: Can't read ../dependencies/lib 
+2016/11/10 19:52:06 WARN  - jmeter.JMeter: Can't read ../app1/ 
+2016/11/10 19:52:06 WARN  - jmeter.JMeter: Can't read ../app2/ 
+2016/11/10 19:52:06 WARN  - jmeter.JMeter: Can't read ../extra_lib 
+2016/11/10 19:52:06 INFO  - jmeter.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'D:\Users\fanp\Desktop\run_test\res\convert_35u_19-52-06' 
+2016/11/10 19:52:06 INFO  - jmeter.services.FileServer: Default base='D:\Users\fanp\Desktop\run_test' 
+2016/11/10 19:52:06 INFO  - jmeter.services.FileServer: Set new base='D:\项目\html转pdf' 
+2016/11/10 19:52:06 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2016/11/10 19:52:06 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2016/11/10 19:52:06 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.9 
+2016/11/10 19:52:06 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2016/11/10 19:52:06 INFO  - jmeter.save.SaveService: Loading file: D:\项目\html转pdf\test.jmx 
+2016/11/10 19:52:06 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2016/11/10 19:52:06 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2016/11/10 19:52:06 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2016/11/10 19:52:06 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2016/11/10 19:52:06 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2016/11/10 19:52:06 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
+2016/11/10 19:52:06 INFO  - jmeter.JMeter: Creating summariser <summary> 
+2016/11/10 19:52:06 INFO  - jmeter.report.dashboard.ReportGenerator: ReportGenerator will use for Parsing the separator:',' 
+2016/11/10 19:52:06 INFO  - jmeter.report.dashboard.ReportGenerator: Will generate report at end of test from  results file:convert_35u_19-52-06 
+2016/11/10 19:52:06 INFO  - jmeter.report.dashboard.ReportGenerator: Reading report generator properties from:E:\software\apache-jmeter-3.0\bin\reportgenerator.properties 
+2016/11/10 19:52:06 INFO  - jmeter.report.dashboard.ReportGenerator: Merging with JMeter properties 
+2016/11/10 19:52:06 INFO  - jmeter.report.config.ReportGeneratorConfiguration: Property "jmeter.reportgenerator.temp_dir" not found, using default value "temp" instead. 
+2016/11/10 19:52:06 INFO  - jmeter.report.config.ReportGeneratorConfiguration: Property "jmeter.reportgenerator.apdex_satisfied_threshold" not found, using default value "500" instead. 
+2016/11/10 19:52:06 INFO  - jmeter.report.config.ReportGeneratorConfiguration: Property "jmeter.reportgenerator.apdex_tolerated_threshold" not found, using default value "1500" instead. 
+2016/11/10 19:52:06 INFO  - jmeter.report.config.ReportGeneratorConfiguration: Property "jmeter.reportgenerator.sample_filter" not found, using default value "null" instead. 
+2016/11/10 19:52:06 INFO  - jmeter.report.config.ReportGeneratorConfiguration: Property "jmeter.reportgenerator.report_title" not found, using default value "null" instead. 
+2016/11/10 19:52:06 INFO  - jmeter.report.config.ReportGeneratorConfiguration: Property "jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers" not found, using default value "false" instead. 
+2016/11/10 19:52:06 INFO  - jmeter.report.config.ReportGeneratorConfiguration: Property "jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers" not found, using default value "false" instead. 
+2016/11/10 19:52:06 INFO  - jmeter.report.config.ReportGeneratorConfiguration: Property "jmeter.reportgenerator.graph.bytesThroughputOverTime.exclude_controllers" not found, using default value "false" instead. 
+2016/11/10 19:52:06 INFO  - jmeter.report.config.ReportGeneratorConfiguration: Property "jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers" not found, using default value "false" instead. 
+2016/11/10 19:52:06 INFO  - jmeter.report.config.ReportGeneratorConfiguration: Property "jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers" not found, using default value "false" instead. 
+2016/11/10 19:52:06 INFO  - jmeter.report.config.ReportGeneratorConfiguration: Property "jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers" not found, using default value "false" instead. 
+2016/11/10 19:52:06 INFO  - jmeter.report.config.ReportGeneratorConfiguration: Property "jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers" not found, using default value "false" instead. 
+2016/11/10 19:52:06 INFO  - jmeter.report.config.ReportGeneratorConfiguration: Property "jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers" not found, using default value "false" instead. 
+2016/11/10 19:52:06 INFO  - jmeter.report.config.ReportGeneratorConfiguration: Property "jmeter.reportgenerator.exporter.html.filters_only_sample_series" not found, using default value "true" instead. 
+2016/11/10 19:52:06 INFO  - jmeter.report.config.ReportGeneratorConfiguration: Property "jmeter.reportgenerator.exporter.html.series_filter" not found, using default value "" instead. 
+2016/11/10 19:52:06 INFO  - jmeter.report.config.ReportGeneratorConfiguration: Property "jmeter.reportgenerator.exporter.html.show_controllers_only" not found, using default value "false" instead. 
+2016/11/10 19:52:06 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/11/10 19:52:06 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/11/10 19:52:06 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/11/10 19:52:06 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2016/11/10 19:52:06 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2016/11/10 19:52:07 INFO  - jmeter.JMeter: Running test (1478778727003) 
+2016/11/10 19:52:07 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2016/11/10 19:52:07 INFO  - jmeter.engine.StandardJMeterEngine: Starting 35 threads for group Thread Group. 
+2016/11/10 19:52:07 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/11/10 19:52:07 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 35 ramp-up 5 perThread 142.85715 delayedStart=false 
+2016/11/10 19:52:07 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2016/11/10 19:52:07 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = DST51574 
+2016/11/10 19:52:07 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: HTTP request retry count = 0 
+2016/11/10 19:52:07 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2016/11/10 19:52:07 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to GBK 
+2016/11/10 19:52:07 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/11/10 19:52:07 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/11/10 19:52:07 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2016/11/10 19:52:07 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2016/11/10 19:52:07 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2016/11/10 19:52:07 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2016/11/10 19:52:07 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2016/11/10 19:52:07 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2016/11/10 19:52:07 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-6 
+2016/11/10 19:52:07 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-7 
+2016/11/10 19:52:08 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-8 
+2016/11/10 19:52:08 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-9 
+2016/11/10 19:52:08 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-10 
+2016/11/10 19:52:08 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-11 
+2016/11/10 19:52:08 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-12 
+2016/11/10 19:52:08 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-13 
+2016/11/10 19:52:08 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-14 
+2016/11/10 19:52:09 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-15 
+2016/11/10 19:52:09 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-16 
+2016/11/10 19:52:09 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-17 
+2016/11/10 19:52:09 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-18 
+2016/11/10 19:52:09 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-19 
+2016/11/10 19:52:09 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-20 
+2016/11/10 19:52:09 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-21 
+2016/11/10 19:52:10 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-22 
+2016/11/10 19:52:10 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-23 
+2016/11/10 19:52:10 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-24 
+2016/11/10 19:52:10 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-25 
+2016/11/10 19:52:10 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-26 
+2016/11/10 19:52:10 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-27 
+2016/11/10 19:52:10 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-28 
+2016/11/10 19:52:11 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-29 
+2016/11/10 19:52:11 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-30 
+2016/11/10 19:52:11 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-31 
+2016/11/10 19:52:11 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-32 
+2016/11/10 19:52:11 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-33 
+2016/11/10 19:52:11 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-34 
+2016/11/10 19:52:11 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-35 
+2016/11/10 19:52:30 INFO  - jmeter.reporters.Summariser: summary +   1145 in 00:00:23 =   49.8/s Avg:   617 Min:   392 Max:  1716 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 19:53:00 INFO  - jmeter.reporters.Summariser: summary +   1895 in 00:00:30 =   63.2/s Avg:   552 Min:   376 Max:  3584 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 19:53:00 INFO  - jmeter.reporters.Summariser: summary =   3040 in 00:00:53 =   57.4/s Avg:   577 Min:   376 Max:  3584 Err:     0 (0.00%) 
+2016/11/10 19:53:30 INFO  - jmeter.reporters.Summariser: summary +   1691 in 00:00:30 =   56.4/s Avg:   619 Min:   377 Max:  5712 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 19:53:30 INFO  - jmeter.reporters.Summariser: summary =   4731 in 00:01:23 =   57.0/s Avg:   592 Min:   376 Max:  5712 Err:     0 (0.00%) 
+2016/11/10 19:54:00 INFO  - jmeter.reporters.Summariser: summary +   1741 in 00:00:30 =   58.0/s Avg:   587 Min:    74 Max:  4102 Err:     1 (0.06%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 19:54:00 INFO  - jmeter.reporters.Summariser: summary =   6472 in 00:01:53 =   57.3/s Avg:   591 Min:    74 Max:  5712 Err:     1 (0.02%) 
+2016/11/10 19:54:30 INFO  - jmeter.reporters.Summariser: summary +   1585 in 00:00:30 =   52.8/s Avg:   676 Min:    73 Max:  6488 Err:     2 (0.13%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 19:54:30 INFO  - jmeter.reporters.Summariser: summary =   8057 in 00:02:23 =   56.3/s Avg:   608 Min:    73 Max:  6488 Err:     3 (0.04%) 
+2016/11/10 19:55:00 INFO  - jmeter.reporters.Summariser: summary +   1285 in 00:00:30 =   42.9/s Avg:   815 Min:   459 Max:  5623 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 19:55:00 INFO  - jmeter.reporters.Summariser: summary =   9342 in 00:02:53 =   54.0/s Avg:   636 Min:    73 Max:  6488 Err:     3 (0.03%) 
+2016/11/10 19:55:30 INFO  - jmeter.reporters.Summariser: summary +   1244 in 00:00:30 =   41.5/s Avg:   844 Min:   452 Max:  5876 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 19:55:30 INFO  - jmeter.reporters.Summariser: summary =  10586 in 00:03:23 =   52.1/s Avg:   661 Min:    73 Max:  6488 Err:     3 (0.03%) 
+2016/11/10 19:56:00 INFO  - jmeter.reporters.Summariser: summary +   1275 in 00:00:30 =   42.5/s Avg:   823 Min:   454 Max:  5950 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 19:56:00 INFO  - jmeter.reporters.Summariser: summary =  11861 in 00:03:53 =   50.9/s Avg:   678 Min:    73 Max:  6488 Err:     3 (0.03%) 
+2016/11/10 19:56:30 INFO  - jmeter.reporters.Summariser: summary +   1198 in 00:00:30 =   39.9/s Avg:   874 Min:   514 Max:  6056 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 19:56:30 INFO  - jmeter.reporters.Summariser: summary =  13059 in 00:04:23 =   49.6/s Avg:   696 Min:    73 Max:  6488 Err:     3 (0.02%) 
+2016/11/10 19:57:00 INFO  - jmeter.reporters.Summariser: summary +   1247 in 00:00:30 =   41.5/s Avg:   844 Min:   484 Max:  5668 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 19:57:00 INFO  - jmeter.reporters.Summariser: summary =  14306 in 00:04:53 =   48.8/s Avg:   709 Min:    73 Max:  6488 Err:     3 (0.02%) 
+2016/11/10 19:57:30 INFO  - jmeter.reporters.Summariser: summary +   1213 in 00:00:30 =   40.5/s Avg:   864 Min:   428 Max: 10512 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 19:57:30 INFO  - jmeter.reporters.Summariser: summary =  15519 in 00:05:23 =   48.0/s Avg:   721 Min:    73 Max: 10512 Err:     3 (0.02%) 
+2016/11/10 19:58:00 INFO  - jmeter.reporters.Summariser: summary +   1222 in 00:00:30 =   40.7/s Avg:   852 Min:   460 Max:  2062 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 19:58:00 INFO  - jmeter.reporters.Summariser: summary =  16741 in 00:05:53 =   47.4/s Avg:   731 Min:    73 Max: 10512 Err:     3 (0.02%) 
+2016/11/10 19:58:30 INFO  - jmeter.reporters.Summariser: summary +   1354 in 00:00:30 =   45.1/s Avg:   781 Min:   439 Max:  5742 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 19:58:30 INFO  - jmeter.reporters.Summariser: summary =  18095 in 00:06:23 =   47.2/s Avg:   734 Min:    73 Max: 10512 Err:     3 (0.02%) 
+2016/11/10 19:59:00 INFO  - jmeter.reporters.Summariser: summary +   1404 in 00:00:30 =   46.8/s Avg:   739 Min:   427 Max:  5471 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 19:59:00 INFO  - jmeter.reporters.Summariser: summary =  19499 in 00:06:53 =   47.2/s Avg:   735 Min:    73 Max: 10512 Err:     3 (0.02%) 
+2016/11/10 19:59:30 INFO  - jmeter.reporters.Summariser: summary +   1369 in 00:00:30 =   45.6/s Avg:   776 Min:   392 Max:  6611 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 19:59:30 INFO  - jmeter.reporters.Summariser: summary =  20868 in 00:07:23 =   47.1/s Avg:   737 Min:    73 Max: 10512 Err:     3 (0.01%) 
+2016/11/10 20:00:00 INFO  - jmeter.reporters.Summariser: summary +   1828 in 00:00:30 =   60.9/s Avg:   573 Min:   374 Max:  5705 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 20:00:00 INFO  - jmeter.reporters.Summariser: summary =  22696 in 00:07:53 =   48.0/s Avg:   724 Min:    73 Max: 10512 Err:     3 (0.01%) 
+2016/11/10 20:00:30 INFO  - jmeter.reporters.Summariser: summary +   1749 in 00:00:30 =   58.2/s Avg:   600 Min:   378 Max:  2330 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 20:00:30 INFO  - jmeter.reporters.Summariser: summary =  24445 in 00:08:23 =   48.6/s Avg:   715 Min:    73 Max: 10512 Err:     3 (0.01%) 
+2016/11/10 20:01:00 INFO  - jmeter.reporters.Summariser: summary +   1667 in 00:00:30 =   55.6/s Avg:   620 Min:   396 Max:  3531 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 20:01:00 INFO  - jmeter.reporters.Summariser: summary =  26112 in 00:08:53 =   49.0/s Avg:   709 Min:    73 Max: 10512 Err:     3 (0.01%) 
+2016/11/10 20:01:30 INFO  - jmeter.reporters.Summariser: summary +   1351 in 00:00:30 =   45.0/s Avg:   783 Min:    78 Max: 21003 Err:     2 (0.15%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 20:01:30 INFO  - jmeter.reporters.Summariser: summary =  27463 in 00:09:23 =   48.8/s Avg:   713 Min:    73 Max: 21003 Err:     5 (0.02%) 
+2016/11/10 20:02:00 INFO  - jmeter.reporters.Summariser: summary +   1851 in 00:00:30 =   61.8/s Avg:   568 Min:    56 Max:  5705 Err:     1 (0.05%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 20:02:00 INFO  - jmeter.reporters.Summariser: summary =  29314 in 00:09:53 =   49.4/s Avg:   704 Min:    56 Max: 21003 Err:     6 (0.02%) 
+2016/11/10 20:02:30 INFO  - jmeter.reporters.Summariser: summary +   1662 in 00:00:30 =   55.4/s Avg:   629 Min:   377 Max:  5668 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 20:02:30 INFO  - jmeter.reporters.Summariser: summary =  30976 in 00:10:23 =   49.7/s Avg:   700 Min:    56 Max: 21003 Err:     6 (0.02%) 
+2016/11/10 20:03:00 INFO  - jmeter.reporters.Summariser: summary +   1636 in 00:00:30 =   54.5/s Avg:   644 Min:   375 Max:  5794 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 20:03:00 INFO  - jmeter.reporters.Summariser: summary =  32612 in 00:10:53 =   49.9/s Avg:   697 Min:    56 Max: 21003 Err:     6 (0.02%) 
+2016/11/10 20:03:30 INFO  - jmeter.reporters.Summariser: summary +   1764 in 00:00:30 =   58.8/s Avg:   592 Min:   378 Max:  5901 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 20:03:30 INFO  - jmeter.reporters.Summariser: summary =  34376 in 00:11:23 =   50.3/s Avg:   692 Min:    56 Max: 21003 Err:     6 (0.02%) 
+2016/11/10 20:04:00 INFO  - jmeter.reporters.Summariser: summary +   1706 in 00:00:30 =   56.9/s Avg:   592 Min:    65 Max:  5736 Err:     1 (0.06%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 20:04:00 INFO  - jmeter.reporters.Summariser: summary =  36082 in 00:11:53 =   50.6/s Avg:   687 Min:    56 Max: 21003 Err:     7 (0.02%) 
+2016/11/10 20:04:30 INFO  - jmeter.reporters.Summariser: summary +   1780 in 00:00:30 =   59.2/s Avg:   599 Min:   372 Max:  6164 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 20:04:30 INFO  - jmeter.reporters.Summariser: summary =  37862 in 00:12:23 =   51.0/s Avg:   683 Min:    56 Max: 21003 Err:     7 (0.02%) 
+2016/11/10 20:05:00 INFO  - jmeter.reporters.Summariser: summary +   1592 in 00:00:30 =   53.2/s Avg:   672 Min:    48 Max:  5969 Err:     4 (0.25%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 20:05:00 INFO  - jmeter.reporters.Summariser: summary =  39454 in 00:12:53 =   51.0/s Avg:   682 Min:    48 Max: 21003 Err:    11 (0.03%) 
+2016/11/10 20:05:30 INFO  - jmeter.reporters.Summariser: summary +   1543 in 00:00:30 =   51.4/s Avg:   681 Min:   378 Max:  6452 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 20:05:30 INFO  - jmeter.reporters.Summariser: summary =  40997 in 00:13:23 =   51.1/s Avg:   682 Min:    48 Max: 21003 Err:    11 (0.03%) 
+2016/11/10 20:06:00 INFO  - jmeter.reporters.Summariser: summary +   1826 in 00:00:30 =   60.9/s Avg:   574 Min:    65 Max:  5669 Err:     1 (0.05%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 20:06:00 INFO  - jmeter.reporters.Summariser: summary =  42823 in 00:13:53 =   51.4/s Avg:   678 Min:    48 Max: 21003 Err:    12 (0.03%) 
+2016/11/10 20:06:30 INFO  - jmeter.reporters.Summariser: summary +   1434 in 00:00:30 =   47.8/s Avg:   733 Min:   381 Max:  6835 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 20:06:30 INFO  - jmeter.reporters.Summariser: summary =  44257 in 00:14:23 =   51.3/s Avg:   679 Min:    48 Max: 21003 Err:    12 (0.03%) 
+2016/11/10 20:07:00 INFO  - jmeter.reporters.Summariser: summary +   1783 in 00:00:30 =   59.4/s Avg:   586 Min:    65 Max:  5514 Err:     3 (0.17%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 20:07:00 INFO  - jmeter.reporters.Summariser: summary =  46040 in 00:14:53 =   51.6/s Avg:   676 Min:    48 Max: 21003 Err:    15 (0.03%) 
+2016/11/10 20:07:30 INFO  - jmeter.reporters.Summariser: summary +   1265 in 00:00:30 =   42.2/s Avg:   797 Min:   406 Max: 10621 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 20:07:30 INFO  - jmeter.reporters.Summariser: summary =  47305 in 00:15:23 =   51.3/s Avg:   679 Min:    48 Max: 21003 Err:    15 (0.03%) 
+2016/11/10 20:08:00 INFO  - jmeter.reporters.Summariser: summary +   1328 in 00:00:30 =   44.2/s Avg:   822 Min:   403 Max:  6026 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 20:08:00 INFO  - jmeter.reporters.Summariser: summary =  48633 in 00:15:53 =   51.0/s Avg:   683 Min:    48 Max: 21003 Err:    15 (0.03%) 
+2016/11/10 20:08:30 INFO  - jmeter.reporters.Summariser: summary +   1315 in 00:00:30 =   43.9/s Avg:   797 Min:   431 Max:  6061 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 20:08:30 INFO  - jmeter.reporters.Summariser: summary =  49948 in 00:16:23 =   50.8/s Avg:   686 Min:    48 Max: 21003 Err:    15 (0.03%) 
+2016/11/10 20:09:00 INFO  - jmeter.reporters.Summariser: summary +   1457 in 00:00:30 =   48.5/s Avg:   722 Min:   448 Max:  5546 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 20:09:00 INFO  - jmeter.reporters.Summariser: summary =  51405 in 00:16:53 =   50.7/s Avg:   687 Min:    48 Max: 21003 Err:    15 (0.03%) 
+2016/11/10 20:09:30 INFO  - jmeter.reporters.Summariser: summary +   1452 in 00:00:30 =   48.5/s Avg:   718 Min:   455 Max:  1961 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 20:09:30 INFO  - jmeter.reporters.Summariser: summary =  52857 in 00:17:23 =   50.7/s Avg:   688 Min:    48 Max: 21003 Err:    15 (0.03%) 
+2016/11/10 20:10:00 INFO  - jmeter.reporters.Summariser: summary +   1346 in 00:00:30 =   44.8/s Avg:   757 Min:   430 Max:  6538 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 20:10:00 INFO  - jmeter.reporters.Summariser: summary =  54203 in 00:17:53 =   50.5/s Avg:   690 Min:    48 Max: 21003 Err:    15 (0.03%) 
+2016/11/10 20:10:30 INFO  - jmeter.reporters.Summariser: summary +   1324 in 00:00:30 =   44.2/s Avg:   819 Min:   418 Max:  7059 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 20:10:30 INFO  - jmeter.reporters.Summariser: summary =  55527 in 00:18:23 =   50.3/s Avg:   693 Min:    48 Max: 21003 Err:    15 (0.03%) 
+2016/11/10 20:11:00 INFO  - jmeter.reporters.Summariser: summary +   1446 in 00:00:30 =   48.0/s Avg:   721 Min:   434 Max:  5689 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 20:11:00 INFO  - jmeter.reporters.Summariser: summary =  56973 in 00:18:53 =   50.3/s Avg:   693 Min:    48 Max: 21003 Err:    15 (0.03%) 
+2016/11/10 20:11:30 INFO  - jmeter.reporters.Summariser: summary +   1382 in 00:00:30 =   46.2/s Avg:   760 Min:   441 Max:  5864 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 20:11:30 INFO  - jmeter.reporters.Summariser: summary =  58355 in 00:19:23 =   50.2/s Avg:   695 Min:    48 Max: 21003 Err:    15 (0.03%) 
+2016/11/10 20:12:00 INFO  - jmeter.reporters.Summariser: summary +   1453 in 00:00:30 =   48.4/s Avg:   725 Min:   406 Max:  5610 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0 
+2016/11/10 20:12:00 INFO  - jmeter.reporters.Summariser: summary =  59808 in 00:19:53 =   50.1/s Avg:   696 Min:    48 Max: 21003 Err:    15 (0.03%) 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-8 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-8 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-24 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-24 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-11 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-11 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-27 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-27 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-5 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-22 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-22 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-12 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-12 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-9 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-9 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-19 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-19 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-20 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-20 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-15 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-15 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-25 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-25 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-28 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-28 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-3 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-26 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-26 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-1 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-31 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-31 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-17 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-17 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-2 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-29 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-29 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-34 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-34 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-6 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-6 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-13 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-13 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-32 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-32 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-33 
+2016/11/10 20:12:07 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-33 
+2016/11/10 20:12:08 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-4 
+2016/11/10 20:12:08 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2016/11/10 20:12:12 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-16 
+2016/11/10 20:12:12 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-16 
+2016/11/10 20:12:12 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-18 
+2016/11/10 20:12:12 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-18 
+2016/11/10 20:12:12 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-21 
+2016/11/10 20:12:12 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-21 
+2016/11/10 20:12:12 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-14 
+2016/11/10 20:12:12 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-14 
+2016/11/10 20:12:12 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-7 
+2016/11/10 20:12:12 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-7 
+2016/11/10 20:12:12 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-35 
+2016/11/10 20:12:12 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-35 
+2016/11/10 20:12:12 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-30 
+2016/11/10 20:12:12 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-30 
+2016/11/10 20:12:12 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-10 
+2016/11/10 20:12:12 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-10 
+2016/11/10 20:12:12 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-23 
+2016/11/10 20:12:12 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-23 
+2016/11/10 20:12:12 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/11/10 20:12:12 INFO  - jmeter.reporters.Summariser: summary +    467 in 00:00:12 =   37.6/s Avg:   660 Min:    55 Max:  5595 Err:     2 (0.43%) Active: 0 Started: 35 Finished: 35 
+2016/11/10 20:12:12 INFO  - jmeter.reporters.Summariser: summary =  60275 in 00:20:05 =   50.0/s Avg:   695 Min:    48 Max: 21003 Err:    17 (0.03%) 
+2016/11/10 20:12:12 INFO  - jmeter.JMeter: Generating Dashboard 
+2016/11/10 20:12:12 INFO  - jmeter.report.dashboard.ReportGenerator: Flushing result collector before report Generation 
+2016/11/10 20:12:12 INFO  - jmeter.reporters.ResultCollector: forced flush through ResultCollector#flushFile 
+2016/11/10 20:12:12 INFO  - jmeter.report.processor.NormalizerSampleConsumer: Using format:ms to parse timeStamp field 
+2016/11/10 20:12:14 INFO  - org.apache.jmeter.report.processor.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples 
+2016/11/10 20:12:14 INFO  - org.apache.jmeter.report.processor.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples 
+2016/11/10 20:12:14 INFO  - org.apache.jmeter.report.processor.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples 
+2016/11/10 20:12:14 INFO  - org.apache.jmeter.report.processor.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples 
+2016/11/10 20:12:14 INFO  - org.apache.jmeter.report.processor.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples 
+2016/11/10 20:12:14 INFO  - org.apache.jmeter.report.processor.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples 
+2016/11/10 20:12:14 INFO  - org.apache.jmeter.report.processor.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples 
+2016/11/10 20:12:14 INFO  - org.apache.jmeter.report.processor.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples 
+2016/11/10 20:12:14 INFO  - org.apache.jmeter.report.processor.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples 
+2016/11/10 20:12:14 INFO  - org.apache.jmeter.report.processor.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples 
+2016/11/10 20:12:14 INFO  - org.apache.jmeter.report.processor.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 301375 samples 
+2016/11/10 20:12:14 INFO  - org.apache.jmeter.report.processor.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples 
+2016/11/10 20:12:14 INFO  - org.apache.jmeter.report.processor.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples 
+2016/11/10 20:12:14 INFO  - org.apache.jmeter.report.processor.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples 
+2016/11/10 20:12:14 INFO  - org.apache.jmeter.report.processor.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples 
+2016/11/10 20:12:14 INFO  - org.apache.jmeter.report.processor.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples 
+2016/11/10 20:12:14 INFO  - org.apache.jmeter.report.processor.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples 
+2016/11/10 20:12:14 INFO  - org.apache.jmeter.report.processor.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples 
+2016/11/10 20:12:14 INFO  - org.apache.jmeter.report.processor.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples 
+2016/11/10 20:12:14 INFO  - org.apache.jmeter.report.processor.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 723300 samples 
+2016/11/10 20:12:14 INFO  - org.apache.jmeter.report.processor.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 180825 samples 
+2016/11/10 20:12:14 INFO  - org.apache.jmeter.report.processor.CsvFileSampleSource: produce(): 60275 samples produced in 2s 17 ms on channel 0 
+2016/11/10 20:12:14 INFO  - jmeter.report.dashboard.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter' 
+2016/11/10 20:12:14 INFO  - jmeter.report.dashboard.HtmlTemplateExporter: Will generate dashboard in folder:D:\Users\fanp\Desktop\run_test\res\convert_35u_19-52-06 
+2016/11/10 20:12:14 INFO  - jmeter.report.dashboard.HtmlTemplateExporter: Report will be generated in:D:\Users\fanp\Desktop\run_test\res\convert_35u_19-52-06, creating folder structure 
+2016/11/10 20:12:21 INFO  - jmeter.JMeter: Dashboard generated 
