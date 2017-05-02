@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<jmeterTestPlan version="1.2" properties="3.2" jmeter="3.2 r1790748">
+<?xml version='1.0' encoding='utf-8'?>
+<jmeterTestPlan jmeter="3.2 r1790748" properties="3.2" version="1.2">
   <hashTree>
-    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="test plan" enabled="true">
-      <stringProp name="TestPlan.comments"></stringProp>
+    <TestPlan enabled="true" guiclass="TestPlanGui" testclass="TestPlan" testname="test plan">
+      <stringProp name="TestPlan.comments" />
       <boolProp name="TestPlan.functional_mode">false</boolProp>
       <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
-      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="用户定义的变量" enabled="true">
-        <collectionProp name="Arguments.arguments"/>
+      <elementProp elementType="Arguments" enabled="true" guiclass="ArgumentsPanel" name="TestPlan.user_defined_variables" testclass="Arguments" testname="用户定义的变量">
+        <collectionProp name="Arguments.arguments" />
       </elementProp>
-      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+      <stringProp name="TestPlan.user_define_classpath" />
     </TestPlan>
     <hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group" enabled="true">
+      <ThreadGroup enabled="true" guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
-        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="循环控制器" enabled="true">
+        <elementProp elementType="LoopController" enabled="true" guiclass="LoopControlPanel" name="ThreadGroup.main_controller" testclass="LoopController" testname="循环控制器">
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
@@ -22,58 +22,58 @@
         <longProp name="ThreadGroup.start_time">1493376639000</longProp>
         <longProp name="ThreadGroup.end_time">1493376639000</longProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
-        <stringProp name="ThreadGroup.duration"></stringProp>
-        <stringProp name="ThreadGroup.delay"></stringProp>
+        <stringProp name="ThreadGroup.duration" />
+        <stringProp name="ThreadGroup.delay" />
       </ThreadGroup>
       <hashTree>
-        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="false">
+        <CSVDataSet enabled="false" guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config">
           <stringProp name="delimiter">,</stringProp>
-          <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="filename"></stringProp>
+          <stringProp name="fileEncoding" />
+          <stringProp name="filename" />
           <boolProp name="ignoreFirstLine">false</boolProp>
           <boolProp name="quotedData">false</boolProp>
           <boolProp name="recycle">true</boolProp>
           <stringProp name="shareMode">shareMode.all</stringProp>
           <boolProp name="stopThread">false</boolProp>
-          <stringProp name="variableNames"></stringProp>
+          <stringProp name="variableNames" />
         </CSVDataSet>
-        <hashTree/>
-        <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP信息头管理器" enabled="false">
+        <hashTree />
+        <HeaderManager enable="true" enabled="false" guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP信息头管理器">
           <collectionProp name="HeaderManager.headers">
-            <elementProp name="" elementType="Header">
+            <elementProp elementType="Header" name="">
               <stringProp name="Header.name">Content-Type</stringProp>
-              <stringProp name="Header.value">application/json</stringProp>
+              <stringProp name="Header.value">application/xml</stringProp>
             </elementProp>
           </collectionProp>
         </HeaderManager>
-        <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request" enabled="true">
+        <hashTree />
+        <HTTPSamplerProxy enabled="true" guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+          <elementProp elementType="Arguments" name="HTTPsampler.Arguments">
             <collectionProp name="Arguments.arguments">
-              <elementProp name="" elementType="HTTPArgument">
+              <elementProp elementType="HTTPArgument" name="">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">aa</stringProp>
+                <stringProp name="Argument.value">{'key1': 'value1', 'key2': 'value2'}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">ws.cdataportal.fx.ctripcorp.com</stringProp>
-          <stringProp name="HTTPSampler.port"></stringProp>
-          <stringProp name="HTTPSampler.protocol"></stringProp>
-          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path"></stringProp>
-          <stringProp name="HTTPSampler.method">GET</stringProp>
+          <stringProp name="HTTPSampler.domain">httpbin.org</stringProp>
+          <stringProp name="HTTPSampler.port" />
+          <stringProp name="HTTPSampler.protocol" />
+          <stringProp name="HTTPSampler.contentEncoding" />
+          <stringProp name="HTTPSampler.path">post</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
           <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          <stringProp name="HTTPSampler.embedded_url_re" />
+          <stringProp name="HTTPSampler.connect_timeout" />
+          <stringProp name="HTTPSampler.response_timeout" />
         </HTTPSamplerProxy>
-        <hashTree/>
-        <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="true">
+        <hashTree />
+        <ResultCollector enabled="true" guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
@@ -106,14 +106,14 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename"></stringProp>
+          <stringProp name="filename" />
         </ResultCollector>
-        <hashTree/>
+        <hashTree />
       </hashTree>
     </hashTree>
-    <WorkBench guiclass="WorkBenchGui" testclass="WorkBench" testname="工作台" enabled="true">
+    <WorkBench enabled="true" guiclass="WorkBenchGui" testclass="WorkBench" testname="工作台">
       <boolProp name="WorkBench.save">true</boolProp>
     </WorkBench>
-    <hashTree/>
+    <hashTree />
   </hashTree>
 </jmeterTestPlan>

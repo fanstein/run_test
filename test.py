@@ -13,4 +13,4 @@ text_nodes = xml_parser.get_node_by_keyvalue(xml_parser.find_nodes(tree, "proces
 xml_parser.change_node_text(text_nodes, "new text")
 
 # 6. 输出到结果文件
-xml_parser.write_xml(tree, "out.xml")
+xml_parser.write_xml(tree, "out.jmx")

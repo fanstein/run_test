@@ -142,4 +142,4 @@ if __name__ == "__main__":
     change_node_text(text_nodes, "new text")
 
     # 6. 输出到结果文件
-    write_xml(tree, "./out.xml")
+    write_xml(tree, "./out.jmx")

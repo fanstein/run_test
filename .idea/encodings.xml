@@ -4,5 +4,6 @@
     <file url="file://$PROJECT_DIR$/jmeter.log" charset="GBK" />
     <file url="file://$PROJECT_DIR$/re.log" charset="GBK" />
     <file url="file://$PROJECT_DIR$/run.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/run_jmeter.bat" charset="GBK" />
   </component>
 </project>
