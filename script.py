@@ -17,6 +17,7 @@ def script_mader():
     bodydata = cf.get('script', 'bodydata')
     parameter = cf.get('script', 'parameter')
     Content_Type = cf.get('script', 'Content-Type')
+    result_path = cf.get('scenario', 'result_path')
     # print parameter, host_port, bodydata
 
     tree = xml_parser.read_xml('http_sampler.jmx')
@@ -55,6 +56,6 @@ def script_mader():
                               "hashTree/hashTree/hashTree/HTTPSamplerProxy/elementProp/collectionProp/elementProp/stringProp"),
         {"name": "Argument.value"})
     xml_parser.change_node_text(text_nodes, bodydata)
-
-    xml_parser.write_xml(tree, 'out.jmx')
+    xml_parser.write_xml(tree, (result_path+'out.jmx').decode('utf8'))
     print 'script have create!'
+
